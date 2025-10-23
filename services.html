@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>services</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <style>
+        .main-header {
+            height: 60vh;
+        }
+
+        header {
+            height: 60vh;
+
+        }
+
+        header .p1 {
+            font-size: 45px;
+            color: rgb(254, 161, 22);
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        header .lin a {
+            color: white;
+            cursor: pointer;
+        }
+
+        header .lin span {
+            color: rgb(254, 161, 22);
+            font-weight: 600;
+        }
+
+        #cards-sec .container {
+            height: auto;
+        }
+
+        @media (min-width:700px) {
+            .card {
+                /* width:50%; */
+                flex-basis: 30% !important;
+                margin-bottom: 20px;
+            }
+
+            .container {
+                flex-wrap: wrap;
+            }
+        }
+
+        .serv1 p {
+            color: #fea116;
+            font-size: 13px;
+            text-align: center;
+            font-family: 'Pacifico', cursive
+        }
+        .serv1 h2{
+            text-align: center;
+            font-family: 'Nunito', sans-serif;
+            margin-bottom: 40px;
+        }
+        .main-header{
+            animation: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-header" id="home">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <i class="fa-solid fa-utensils" style="color: #fea116 ;"></i>
+                    <span>GrillTown</span>
+                </div>
+                <div class="nav-items">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="order">
+                    <a class="ll" href="booking.html">Book Table</a>
+                </div>
+                <div class="hamburger" onclick="menu()">
+                    <img src="img/hamburger menu.png">
+                </div>
+            </nav>
+            <div class="mobile-menu">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="menu.html">Menu</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+                <button class="btn">Book Table</button>
+            </div>
+            <header>
+                <div class="p1">Services</div>
+
+                <div class="lin"> <a href="index.html">Home</a> <span>/</span> <a href="#">Services</a></div>
+
+            </header>
+        </div>
+    </div>
+    <section id="cards-sec">
+        <div class="serv1">
+            <p>Our Services</p>
+            <h2>Explore Our Services</h2>
+        </div>
+
+        <div class="container">
+            <div class="card">
+                <div class="icon"><i class="fa fa-3x fa-user-tie text-primary mb-4"></i></div>
+                <div class="pa1">Master Chefs</div>
+                <div class="pa2">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</div>
+            </div>
+
+            <div class="card">
+                <div class="icon"><i class="fa fa-3x fa-utensils text-primary mb-4"></i></div>
+                <div class="pa1">Quality Food</div>
+                <div class="pa2">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</div>
+            </div>
+
+            <div class="card">
+                <div class="icon"><i class="fa fa-3x fa-cart-plus text-primary mb-4"></i></div>
+                <div class="pa1">Online Order</div>
+                <div class="pa2">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</div>
+            </div>
+
+            <div class="card">
+                <div class="icon"><i class="fa fa-3x fa-headset text-primary mb-4"></i></div>
+                <div class="pa1">24/7 Service</div>
+                <div class="pa2">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</div>
+            </div>
+
+            <div class="card">
+                <div class="icon"><i class="fa fa-3x fa-user-tie text-primary mb-4"></i></div>
+                <div class="pa1">Master Chefs</div>
+                <div class="pa2">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</div>
+            </div>
+
+            <div class="card">
+                <div class="icon"><i class="fa fa-3x fa-utensils text-primary mb-4"></i></div>
+                <div class="pa1">Quality Food</div>
+                <div class="pa2">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</div>
+            </div>
+
+            <div class="card">
+                <div class="icon"><i class="fa fa-3x fa-cart-plus text-primary mb-4"></i></div>
+                <div class="pa1">Online Order</div>
+                <div class="pa2">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</div>
+            </div>
+
+            <div class="card">
+                <div class="icon"><i class="fa fa-3x fa-headset text-primary mb-4"></i></div>
+                <div class="pa1">24/7 Service</div>
+                <div class="pa2">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</div>
+            </div>
+
+            <div class="card">
+                <div class="icon"><i class="fa fa-3x fa-user-tie text-primary mb-4"></i></div>
+                <div class="pa1">Master Chefs</div>
+                <div class="pa2">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="foot-top">
+                <div class="part pt1">
+                    <h3>Office Address</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-location-dot"></i> 123 Street,New York,USA </li>
+                        <li><i class="fa-solid fa-phone"></i> +201020585678</li>
+                        <li><i class="fa-slab fa-regular fa-envelope"></i> info@example.com</li>
+                    </ul>
+                    <div class="icons">
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-square-youtube"></i>
+                        <i class="fa-brands fa-square-twitter"></i>
+                        <i class="fa-brands fa-square-linkedin"></i>
+                    </div>
+
+                </div>
+                <div class="part pt2">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="services.html">Our Services</a></li>
+                        <li><a href="booking.html">Book Table</a></li>
+                    </ul>
+                </div>
+                <div class="part pt3">
+                    <h3>Newsletter</h3>
+                    <div class="p">
+                        <p>Lorem ipsum dolor sit amet elit. Quisque eu lectus a leo dictum nec non quam. Tortor eu
+                            placerat rhoncus, lorem quam iaculis felis, sed lacus neque id eros.</p>
+                    </div>
+                    <div class="form">
+                        <form>
+                            <input class="in1" type="email" placeholder="Email goes here" style="border:0px">
+                            <button class="btn" type="submit">submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copy-right">
+                <p>Copyright © <span
+                        style="color:rgb(254, 161, 22) ; font-weight: 800;font-family: 'Nunito', sans-serif;"> <i
+                            class="fa-solid fa-utensils" style="color: #fea116;font-size: 11px;"></i>
+                        GrillTown</span>, All Right Reserved. Designed By <span
+                        style="font-family: 'Pacifico', cursive ; color:rgb(254, 161, 22)">Habiba Samir</span></p>
+                        <a href="#home" class="scroll"><i class="fa-solid fa-arrow-up"></i></a>
+
+                    </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
